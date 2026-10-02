@@ -3,12 +3,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "ok lol hello",
         "我在北京",
         "Hello, World!",
-        "The DotP will rise again.",
-        "GNUn't",
-        "on foenem",
-        "ok",
-        "hi",
-        ""
+        "I<3DotP",
+        "你好世界！",
+        "Made in Kazakhstan",
+        ":)",
+        "Your data is very safe.. or is it?",
+        "I use Arch, btw.",
+        "( ͡° ͜ʖ ͡°)",
+        "ФωФ"
     ];
 
     const element = document.getElementById("headerSubTitle");

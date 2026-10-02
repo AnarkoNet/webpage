@@ -1,0 +1,36 @@
+body { display: flex; flex-wrap: wrap; font-family: sans; background-color: #121212; color: #f6f6f6; margin: 0; }
+html, body { font-family: "FreeSans", "Helvetica Neue", Arial, sans-serif; }
+
+img { max-height: 50vh; width: auto; height: auto; }
+.dir-list { list-style-type: none; padding-left: 0; margin: 0; }
+.dir-list img { border: 2px solid white; margin: 0.25rem; } 
+
+header, footer { flex-basis: 100%; flex-shrink: 0; }
+article { flex-basis: 60%; padding: 1rem; }
+
+header nav { display: flex; justify-content: space-between; }
+nav a, header a { text-decoration: none; color: inherit; }
+header h1 span { margin-left: 1em; font-size: 50%; font-style: italic; }
+
+body > nav { flex-basis: content; padding-right: 1vw; min-width: 16em; }
+nav ul { display: flex; flex-direction: column; list-style-type: none; list-style-position: outside; padding-left: 0; }
+nav li ul { padding-left: 0.6em; }
+
+footer { display: flex; justify-content: space-between; margin-top: 2rem; text-align: center; }
+
+a, a:visited, #side-bar a, header nav a, header h1 a { color: #f6f6f6; text-decoration: none; }
+a:hover { color: #660000; background-color: #f6f6f6; }
+
+header, footer, #side-bar, article, .anarko-backdrop .anarko-hero { background: none; box-shadow: none; }
+
+.anarko-top-links, .anarko-top-note { display: flex; gap: 0.5rem; font-size: 0.95rem; letter-spacing: 0.04em; }
+.anarko-top-note { margin-top: 0.25rem; font-style: italic; }
+
+#side-bar { padding: 1rem; }
+#side-bar a:hover { color: #660000; background-color: #f6f6f6; }
+.sideBarTitle, article h1, article h2, article h3 { color: #f6f6f6; }
+
+blockquote { border-left: 2px solid #f6f6f6; padding-left: 1rem; color: #f6f6f6; }
+
+.anarko-backdrop { text-align: center; margin-bottom: 1.5rem; }
+.anarko-backdrop, .anarko-hero { width: 100%; max-width: 420px; height: auto; border-radius: 0; }

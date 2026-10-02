@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'MonoCraft';
+  src: url('Monocraft.ttf') format('ttf'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body { display: flex; flex-wrap: wrap; font-family: sans; background-color: #121212; color: #f6f6f6; margin: 0; }
-html, body { font-family: "FreeSans", "Helvetica Neue", Arial, sans-serif; }
+html, body { font-family: "MonoCraft", "FreeSans", "Helvetica Neue", Arial, sans-serif; }
 
 img { max-height: 50vh; width: auto; height: auto; }
 .dir-list { list-style-type: none; padding-left: 0; margin: 0; }
